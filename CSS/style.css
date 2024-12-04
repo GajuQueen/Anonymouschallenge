@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+    list-style: none;
 }
 header{
     background-color: black;
@@ -23,7 +24,7 @@ border-radius: 30px;
 }
 .navbar{
     display: block;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     padding: 20px;
     width: 20%;
@@ -31,9 +32,16 @@ border-radius: 30px;
 .psn{
 margin-left: 35px;
 }
-.icons i{
+i{
     color: rgb(2, 2, 2);
-    
-
-
+}
+.dtn{
+    border: 2px solid blue;
+    width: 20%;
+    padding: 20px;
+   
+}
+.dtn a{
+    margin: 20px;
+   
 }
