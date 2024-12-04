@@ -12,3 +12,28 @@ header{
     padding: 15px;
     font-size: 20px;
 }
+main-sect{
+    width: 20%;
+    border: 2px solid blue;
+}
+.navbar img{
+width: 20%;
+border-radius: 30px;
+
+}
+.navbar{
+    display: block;
+    border: 2px solid red;
+    display: flex;
+    padding: 20px;
+    width: 20%;
+}
+.psn{
+margin-left: 35px;
+}
+.icons i{
+    color: rgb(2, 2, 2);
+    
+
+
+}
