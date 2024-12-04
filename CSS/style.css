@@ -63,8 +63,8 @@ i{
 }
 /* main*************************************8 */
 .main-sect{
-    border: 2px solid blue;
-    /* padding: 10px; */
+    /* border: 2px solid blue; */
+    padding: 10px;
     width: 100%;
 }
 .all{
@@ -72,7 +72,7 @@ i{
 }
 .fr{
     display: flex;
-    justify-content: end;
+    justify-content: space-around;
 }
 .fr img{
     width: 70%;
@@ -88,13 +88,19 @@ i{
 } */
 table{
     /* border: 2px solid blue; */
-    /* width: 45%; */
+    width: 100%;
     display: block;
 }
+td a{
+    /* width: 10%; */
+    max-width: 10%;
+}
 td{
-    border: 2px solid red;
-    margin-right: 20px;
+    /* border: 2px solid red; */
+    padding: 5px;
+    width: 80%;
+    background-color: rgb(250, 250, 250);
+    
+
 }
-.tr{
-    border: 20px solid blue;
-}
+
