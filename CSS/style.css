@@ -5,6 +5,9 @@
     text-decoration: none;
     list-style: none;
 }
+body{
+    background-color: gray;
+}
 header{
     background-color: black;
     color: aliceblue;
@@ -13,12 +16,13 @@ header{
     padding: 15px;
     font-size: 20px;
 }
-main-sect{
+.main-sect{
     width: 20%;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
+    background-color: aliceblue;
 }
 .navbar img{
-width: 20%;
+width: 500%;
 border-radius: 30px;
 
 }
@@ -32,16 +36,23 @@ border-radius: 30px;
 .psn{
 margin-left: 35px;
 }
+.psn p{
+    display: flex;
+    margin-bottom: 10px;
+}
+.icons li{
+    margin-top: 200px;
+
+}
 i{
     color: rgb(2, 2, 2);
 }
 .dtn{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 20%;
     padding: 20px;
-   
+    
 }
-.dtn a{
-    margin: 20px;
-   
+.dtn li{
+    margin-bottom: 25px;
 }
